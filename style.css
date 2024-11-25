@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    font-style: italic;
+    background-color: aquamarine;
+    border: 5px;
+    border-radius: 7px;
+    border-color:blue;
+    border-style:double;
+
+}
+#para{
+    border: 3px rebeccapurple solid;
+
+}
+table,th,td{
+    border: 3px;
+    border-color: cadetblue;
+    border-style:groove;
+    width: 70%;
+    text-align: center;
+}
+.para{
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: 40px 10px 20px 50px;
+    padding: 30px 5px;
+}

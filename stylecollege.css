@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f5;
+    background-image: url('https://mariancollege.org/wp-content/uploads/2023/03/campus.jpeg');
+    background-size:contain;
+    color: #333;
+}
+
+
+.styled-image {
+    width: 300px; /* Adjust the size as needed */
+    height: 100px; /* Maintain aspect ratio */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.styled-image:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+#nav1 {
+    background-color: #65007f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+
+#nav1 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#nav1 a:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+
+#about {
+    padding: 40px;
+    background-color: #e8f4f8;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 2rem;
+    color: #65007f;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+#gallery {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#gallery h1 {
+    font-size: 2rem;
+    color: #65007f;
+    margin-bottom: 20px;
+}
+
+#gallery p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #65007f;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#skills {
+    padding: 40px;
+    background-color: #e8f4f8;
+    text-align: center;
+}
+
+#skills h1 {
+    font-size: 2rem;
+    color: #65007f;
+    margin-bottom: 20px;
+}
+
+#skills p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+#footer {
+    background-color: #65007f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+#footer p {
+    margin: 0;
+}
